@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { toggleLight } from './johnny-starter.js';
 
 class App extends Component {
   render() {
@@ -17,7 +18,8 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn Reactsudo
+            <button onclick={toggleLight(true)}>TURN ON</button>
           </a>
         </header>
       </div>
