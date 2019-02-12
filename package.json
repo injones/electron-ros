@@ -6,7 +6,8 @@
     "johnny-five": "^1.0.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
-    "react-scripts": "2.1.3"
+    "react-scripts": "2.1.3",
+    "roslib": "^1.0.1"
   },
   "homepage": "./",
   "main": "src/electron-starter.js",
@@ -17,7 +18,7 @@
     "eject": "react-scripts eject",
     "electron": "electron .",
     "electron-start": "node src/electron-wait-react",
-    "react-start": "react-scripts start",
+    "react-start": "BROWSER=none react-scripts start",
     "dev": "nf start"
   },
   "eslintConfig": {
